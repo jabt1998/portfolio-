@@ -1,0 +1,160 @@
+.techStackContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  
+  box-sizing: border-box;
+
+  .html {
+    font-size: 150px;
+    grid-row: 2 / 3;
+    margin-left: 170px;
+    color: #F4F5F6;
+  }
+  
+  .techStackHeader {
+    background-color: white;
+    width: 320px;
+    height: 100px;
+    margin-left: 60px;
+    border-radius: 10px;
+    margin-top: 110px;
+    box-shadow: 5px 5px black;
+
+    h2 {
+      font-size: 55px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      text-align: center;
+      margin-top: 13px;
+    } 
+  }
+
+  .css {
+    grid-row: 3 / 4;
+    font-size: 150px;
+    margin: 0 0 0 170px;
+    color: #F4F5F6;
+  }
+  .scss {
+    
+      grid-row: 1 / 2;
+      grid-column: 2 / 3;
+      font-size: 150px;
+      margin: 40px 0 0 85px; 
+      color: black;
+    
+  }
+  .github {
+    
+    grid-row: 2 / 3;
+    grid-column: 2 / 3;
+    font-size: 150px;
+    margin: 0 0 0 95px; 
+    color: black;
+  }
+  .react {
+    grid-row: 3 / 4;
+    grid-column: 2 / 3;
+    font-size: 150px;
+    margin: 0 0 0 95px; 
+    color: black;
+  }
+
+  .javascript {
+    grid-row: 1 / 2;
+    grid-column: 3 / 4;
+    font-size: 150px;
+    margin: 40px 0 0 85px; 
+    color: black;
+  }
+
+  .nodejs {
+    grid-row: 2 / 3;
+    grid-column: 3 / 4;
+    font-size: 150px;
+    margin: 0 0 0 95px;
+    color: black;
+  }
+  .bootstrap {
+    grid-row: 3 / 4;
+    grid-column: 3 / 4;
+    font-size: 150px;
+    margin: 0 0 0 95px;
+    color: black;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .techStackContainer {
+    width: 375px;
+    height: 200px;
+    position: relative;
+    bottom: 180px;
+    .techStackHeader {
+      height: 80px;
+      width: 150px;
+      grid-row: 1 / 2;
+      margin-left: 130px;
+      margin-top: 0;
+      
+
+      h2 {
+        font-size: 30px;
+        margin-top: 3px;
+      }
+    }
+
+    .html {
+      font-size: 100px;
+      position: relative;
+      bottom: 100px;
+      right: 140px;
+    }
+    .css {
+      font-size: 100px;
+      position: relative;
+      bottom: 122px;
+      right: 140px;
+    }
+
+    .scss {
+      font-size: 100px;
+      position: relative;
+      top: 50px;
+      right: 220px;
+    }
+    .react {
+      font-size: 100px;
+      color: white;
+      position: relative;
+      right: 357px;
+      bottom: 0px;
+    }
+
+    .javascript {
+      font-size: 100px;
+      position: relative;
+      top: 50px;
+      right: 295px;
+    }
+    .github {
+      font-size: 100px;
+      position: relative;
+      top: 27px;
+      right: 230px;
+    }
+      .nodejs {
+        font-size: 100px;
+        position: relative;
+        right: 304px;
+        top: 29px;
+      }
+      .bootstrap {
+        font-size: 100px;
+        position: relative;
+        right: 430px;
+        top: 5px;
+      }
+  }
+
+}

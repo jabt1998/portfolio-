@@ -1,0 +1,11 @@
+.app {
+  width: 100%;
+  background-image: url("./component/Background/portfolio-background.svg");
+  background-repeat: no-repeat;
+}
+
+@media only screen and (max-width: 800px) {
+  .app {
+    width: 175px;
+  }
+  }

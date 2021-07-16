@@ -1,0 +1,21 @@
+.redBackground {
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;  
+}
+
+@media only screen and (max-width: 667px) {
+.redBackground {
+  width: 50vh;
+}
+}
+
+@media only screen and (min-width: 1200px) {
+  .redBackground {
+    height: auto;
+  }
+  }
+  
